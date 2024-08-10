@@ -54,6 +54,9 @@ stack = ListStack()
 stack.push(1)  # 스택에 1을 추가합니다.
 stack.push(2)  # 스택에 2를 추가합니다.
 stack.push(3)  # 스택에 3을 추가합니다.
+stack.push(4)
+stack.push(5)
+stack.push(6)
 print(stack.pop())  # 출력: 3 (스택의 상단에서 3을 제거하고 반환합니다.)
 print(stack.peek()) # 출력: 2 (스택의 상단에 있는 2를 제거하지 않고 반환합니다.)
 print(stack.size()) # 출력: 2 (스택에 있는 항목의 개수를 반환합니다.)
